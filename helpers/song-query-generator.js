@@ -1,17 +1,21 @@
 const keywords = require('./keyword-library.js');
 const library = require('./song-library.js');
 
+const generateWordCollection = string =>
+  string
+    .replace(/^[, ]+|[, ]+$|[, ]+/g, ' ')
+    .trim()
+    .split();
+
 const songQueryGenerator = problem => {
-  let result;
-  let cleanProblem = problem.replace(/^[, ]+|[, ]+$|[, ]+/g, ' ').trim();
-  let problemToArray = cleanProblem.split(' ');
-  for (let i = 0; i < problemToArray.length; i++) {
-    let current = problemToArray[i];
+  const problemInput = generateWordCollection(problem);
+  for (let i = 0; i < problemInput.length; i += 1) {
+    const current = problemInput[i];
     if (keywords[current]) {
-      let randNum = Math.floor(
+      const randIndex = Math.floor(
         Math.random() * library.songs[keywords[current]].length,
       );
-      return library.songs[keywords[current]][randNum];
+      return library.songs[keywords[current]][randIndex];
     }
   }
   return library.etc[Math.floor(Math.random() * library.etc.length)];
