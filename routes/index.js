@@ -4,6 +4,6 @@ const songControllers = require('../controllers/song.js');
 
 const router = express.Router();
 
-router.route('/song').post(songControllers.searchSongs);
+router.route('/song/:problem').get(songControllers.searchSongs);
 
 module.exports = router;
