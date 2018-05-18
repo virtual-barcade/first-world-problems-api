@@ -7,7 +7,8 @@
   "author": "virtual-barcade",
   "license": "MIT",
   "scripts": {
-    "start": "node app.js"
+    "start": "node app.js",
+    "start:dev": "nodemon app.js"
   },
   "devDependencies": {
     "eslint": "^4.19.1",
@@ -16,9 +17,16 @@
     "eslint-plugin-import": "^2.12.0",
     "eslint-plugin-prettier": "^2.6.0",
     "jest": "^22.4.3",
+    "nodemon": "^1.17.4",
     "prettier": "^1.12.1"
   },
   "dependencies": {
-    "express": "^4.16.3"
+    "body-parser": "^1.18.3",
+    "dotenv": "^5.0.1",
+    "express": "^4.16.3",
+    "express-promise-router": "^3.0.2",
+    "morgan": "^1.9.0",
+    "request": "^2.86.0",
+    "request-promise": "^4.2.2"
   }
 }
