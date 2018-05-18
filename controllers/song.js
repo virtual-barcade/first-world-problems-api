@@ -3,7 +3,7 @@ const spotify = require('../helpers/spotify.js');
 const songQueryGenerator = require('../helpers/song-query-generator.js');
 
 module.exports.searchSongs = async (req, res) => {
-  const q = songQueryGenerator(req.body.q);
+  const q = songQueryGenerator(req.params.problem);
   try {
     const token = await spotify.fetchAccessToken();
     const song = await spotify.fetchSong(q, token.access_token);
