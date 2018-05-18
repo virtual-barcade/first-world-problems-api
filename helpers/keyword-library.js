@@ -2,6 +2,7 @@ const keywords = {
   pizza: 'food',
   girlfriend: 'partner',
   boyfriend: 'partner',
+  partner: 'partner',
   ipad: 'electronics',
   laptop: 'electronics',
   enough: 'food',
@@ -16,6 +17,7 @@ const keywords = {
   ex: 'partner',
   'ex-boyfriend': 'partner',
   'ex-girlfriend': 'partner',
+  'ex-partner': 'partner',
 };
 
 module.exports = keywords;
