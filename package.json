@@ -1,0 +1,9 @@
+{
+  "name": "first-world-problems-api",
+  "version": "1.0.0",
+  "description": "API for First World Problems application.",
+  "main": "index.js",
+  "repository": "https://github.com/virtual-barcade/first-world-problems-api",
+  "author": "virtual-barcade",
+  "license": "MIT"
+}
