@@ -5,6 +5,8 @@ const songs = {
     "carissa's wierd so you wanna be a superhero",
     'yeah yeah yeahs maps',
     'sia breathe me',
+    'portis head roads',
+    'power rangers theme',
   ],
   partner: [
     "lesley gore it's my party",
