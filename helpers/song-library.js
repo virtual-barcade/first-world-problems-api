@@ -1,43 +1,20 @@
 const songs = {
   food: [
-    'gary jules mad world',
-    "i'm only happy when it rains",
-    "carissa's wierd so you wanna be a superhero",
-    'yeah yeah yeahs maps',
-    'sia breathe me',
+    `sia chandelier`,
+    `gary jules mad world`,
+    `adele set fire to the rain`,
   ],
-  partner: [
-    "lesley gore it's my party",
-    'gotye somebody that i used to know',
-    'singularity rift',
-    'the postal service nothing better',
-    'armor for sleep car underwater',
-    'king krule baby blue',
-    'the antlers two',
-    'beck lost cause',
-    'stars personal',
-    "tourist i can't keep up",
-    'stars your ex-lover is dead',
-    'death cab for cutie brothers on a hotel bed',
+  money: [
+    `adele hello`,
+    `pentatonix hallelujah`,
+    `samuel barber adagio for strings`,
   ],
-  electronics: [
-    'radiohead no surprises',
-    'red hot chili peppers porcelain',
-    'adele hello',
-    'three dog night one',
-    'am while my guitar gently weeps',
+  etc: [
+    `heathens`,
+    `piano sonata no.14 op.27 moonlight sonata`,
+    `adagio for strings radio edit`,
+    `swan lake op.20 th.12 moderato`,
   ],
 };
 
-const etc = [
-  'my immortal',
-  'adele set fire to the rain',
-  'heathens',
-  'when she loved me',
-  'angel',
-];
-
-module.exports = {
-  songs,
-  etc,
-};
+module.exports = songs;
