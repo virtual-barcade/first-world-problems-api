@@ -9,13 +9,17 @@ describe('songQueryGenerator', () => {
   });
 
   test('should return a song from the food category if given a keyword that belongs to the food category', () => {
-    const result = songQueryGenerator('pizza');
+    const result = songQueryGenerator(
+      `My pizza box doesn't fit in the fridge.`,
+    );
     const foodSongs = songLibrary.food;
     expect(foodSongs.includes(result)).toBe(true);
   });
 
   test('should return a song from the money category if given a keyword that belongs to the money category', () => {
-    const result = songQueryGenerator('wallet');
+    const result = songQueryGenerator(
+      `I have too much cash in my wallet. It hurts my butt when I sit.`,
+    );
     const moneySongs = songLibrary.money;
     expect(moneySongs.includes(result)).toBe(true);
   });
