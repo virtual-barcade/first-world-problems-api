@@ -6,38 +6,22 @@ const songs = {
     'yeah yeah yeahs maps',
     'sia breathe me',
   ],
-  partner: [
-    "lesley gore it's my party",
-    'gotye somebody that i used to know',
-    'singularity rift',
-    'the postal service nothing better',
-    'armor for sleep car underwater',
-    'king krule baby blue',
-    'the antlers two',
-    'beck lost cause',
-    'stars personal',
-    "tourist i can't keep up",
-    'stars your ex-lover is dead',
-    'death cab for cutie brothers on a hotel bed',
-  ],
-  electronics: [
+  money: [
     'radiohead no surprises',
     'red hot chili peppers porcelain',
     'adele hello',
     'three dog night one',
     'am while my guitar gently weeps',
   ],
+  etc: [
+    'my immortal',
+    'adele set fire to the rain',
+    'heathens',
+    'when she loved me',
+    'angel',
+  ],
 };
-
-const etc = [
-  'my immortal',
-  'adele set fire to the rain',
-  'heathens',
-  'when she loved me',
-  'angel',
-];
 
 module.exports = {
   songs,
-  etc,
 };

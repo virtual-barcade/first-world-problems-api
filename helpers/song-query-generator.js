@@ -18,7 +18,9 @@ const songQueryGenerator = problem => {
       return library.songs[keywords[current]][randIndex];
     }
   }
-  return library.etc[Math.floor(Math.random() * library.etc.length)];
+  return library.songs.etc[
+    Math.floor(Math.random() * library.songs.etc.length)
+  ];
 };
 
 module.exports = songQueryGenerator;
