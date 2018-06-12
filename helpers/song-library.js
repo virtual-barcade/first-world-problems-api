@@ -1,27 +1,20 @@
 const songs = {
   food: [
-    'gary jules mad world',
-    "i'm only happy when it rains",
-    "carissa's wierd so you wanna be a superhero",
-    'yeah yeah yeahs maps',
-    'sia breathe me',
+    `sia chandelier`,
+    `gary jules mad world`,
+    `adele set fire to the rain`,
   ],
   money: [
-    'radiohead no surprises',
-    'red hot chili peppers porcelain',
-    'adele hello',
-    'three dog night one',
-    'am while my guitar gently weeps',
+    `adele hello`,
+    `pentatonix hallelujah`,
+    `samuel barber adagio for strings`,
   ],
   etc: [
-    'my immortal',
-    'adele set fire to the rain',
-    'heathens',
-    'when she loved me',
-    'angel',
+    `heathens`,
+    `piano sonata no.14 op.27 moonlight sonata`,
+    `adagio for strings radio edit`,
+    `swan lake op.20 th.12 moderato`,
   ],
 };
 
-module.exports = {
-  songs,
-};
+module.exports = songs;
