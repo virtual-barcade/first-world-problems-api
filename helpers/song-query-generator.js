@@ -5,7 +5,7 @@ const generateWordCollection = string =>
   string
     .replace(/^[, ]+|[, ]+$|[, ]+/g, ' ')
     .trim()
-    .split();
+    .split(' ');
 
 const songQueryGenerator = problem => {
   const problemInput = generateWordCollection(problem);

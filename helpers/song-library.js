@@ -13,7 +13,6 @@ const songs = {
     `heathens`,
     `piano sonata no.14 op.27 moonlight sonata`,
     `adagio for strings radio edit`,
-    `swan lake op.20 th.12 moderato`,
   ],
 };
 
