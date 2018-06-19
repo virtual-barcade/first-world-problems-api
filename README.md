@@ -24,11 +24,7 @@ GET `https://first-world-problems-api.herokuapp.com/api/v1/song/:problem`
           "uri": "spotify:artist:4dpARuHxo51G3z768sgnrY"
         }
       ],
-      "available_markets": [
-        "AR",
-        "BO"
-        /* ... */
-      ],
+      "available_markets": ["AR", "BO"],
       "external_urls": {
         "spotify": "https://open.spotify.com/album/1azUkThwd2HfUDdeNeT147"
       },
@@ -72,11 +68,7 @@ GET `https://first-world-problems-api.herokuapp.com/api/v1/song/:problem`
         "uri": "spotify:artist:4dpARuHxo51G3z768sgnrY"
       }
     ],
-    "available_markets": [
-      "AR",
-      "BO"
-      /* ... */
-    ],
+    "available_markets": ["AR", "BO"],
     "disc_number": 1,
     "duration_ms": 241693,
     "explicit": false,
@@ -130,11 +122,7 @@ GET `https://first-world-problems-api.herokuapp.com/api/v1/song/random/problem`
           "uri": "spotify:artist:4LYCuV8d6rylb6zjv2k03l"
         }
       ],
-      "available_markets": [
-        "AD",
-        "AR"
-        /* ... */
-      ],
+      "available_markets": ["AD", "AR"],
       "external_urls": {
         "spotify": "https://open.spotify.com/album/4bNwPPpk01D8pVV9IFSBde"
       },
@@ -188,11 +176,7 @@ GET `https://first-world-problems-api.herokuapp.com/api/v1/song/random/problem`
         "uri": "spotify:artist:4LYCuV8d6rylb6zjv2k03l"
       }
     ],
-    "available_markets": [
-      "AD",
-      "AR"
-      /* ... */
-    ],
+    "available_markets": ["AD", "AR"],
     "disc_number": 3,
     "duration_ms": 315426,
     "explicit": false,
@@ -237,11 +221,7 @@ GET `https://first-world-problems-api.herokuapp.com/api/v1/song/:songId/problem/
           "uri": "spotify:artist:4dpARuHxo51G3z768sgnrY"
         }
       ],
-      "available_markets": [
-        "AR",
-        "BO"
-        /* ... */
-      ],
+      "available_markets": ["AR", "BO"],
       "external_urls": {
         "spotify": "https://open.spotify.com/album/1azUkThwd2HfUDdeNeT147"
       },
@@ -285,11 +265,7 @@ GET `https://first-world-problems-api.herokuapp.com/api/v1/song/:songId/problem/
         "uri": "spotify:artist:4dpARuHxo51G3z768sgnrY"
       }
     ],
-    "available_markets": [
-      "AR",
-      "BO"
-      /* ... */
-    ],
+    "available_markets": ["AR", "BO"],
     "disc_number": 1,
     "duration_ms": 241693,
     "explicit": false,
@@ -333,11 +309,7 @@ GET `https://first-world-problems-api.herokuapp.com/api/v1/song/:songId/problem/
           "uri": "spotify:artist:4dpARuHxo51G3z768sgnrY"
         }
       ],
-      "available_markets": [
-        "AR",
-        "BO"
-        /* ... */
-      ],
+      "available_markets": ["AR", "BO"],
       "external_urls": {
         "spotify": "https://open.spotify.com/album/1azUkThwd2HfUDdeNeT147"
       },
@@ -381,11 +353,7 @@ GET `https://first-world-problems-api.herokuapp.com/api/v1/song/:songId/problem/
         "uri": "spotify:artist:4dpARuHxo51G3z768sgnrY"
       }
     ],
-    "available_markets": [
-      "AR",
-      "BO"
-      /* ... */
-    ],
+    "available_markets": ["AR", "BO"],
     "disc_number": 1,
     "duration_ms": 241693,
     "explicit": false,
