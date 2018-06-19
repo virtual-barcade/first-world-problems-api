@@ -28,3 +28,15 @@ module.exports.fetchSongBySearchTerm = (q, token) => {
 
   return rp.get(options);
 };
+
+module.exports.fetchSongById = (id, token) => {
+  const options = {
+    url: `https://api.spotify.com/v1/tracks/${id}`,
+    headers: {
+      Authorization: `Bearer ${token}`,
+    },
+    json: true,
+  };
+
+  return rp.get(options);
+};

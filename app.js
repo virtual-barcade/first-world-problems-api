@@ -16,7 +16,7 @@ app.use((req, res, next) => {
   res.header('access-control-allow-methods', 'GET');
   next();
 });
-app.use('/api', routes);
+app.use('/api/v1', routes);
 
 app.get('/', (req, res) =>
   res.send('Welcome to the First World Problems API!'),
