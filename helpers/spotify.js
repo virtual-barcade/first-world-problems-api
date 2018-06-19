@@ -17,7 +17,7 @@ module.exports.fetchAccessToken = () => {
   return rp.post(authOptions);
 };
 
-module.exports.fetchSong = (q, token) => {
+module.exports.fetchSongBySearchTerm = (q, token) => {
   const options = {
     url: `https://api.spotify.com/v1/search?q=${q}&type=track&limit=1`,
     headers: {

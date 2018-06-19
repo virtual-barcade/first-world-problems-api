@@ -1,5 +1,6 @@
-const keywords = require('./keyword-library.js');
-const songLibrary = require('./song-library.js');
+const keywords = require('../data/keywords');
+const songs = require('../data/songs');
+const { genRandomIndex } = require('./utils');
 
 const generateWordCollection = string =>
   string
@@ -12,13 +13,12 @@ const songQueryGenerator = problem => {
   for (let i = 0; i < problemInput.length; i += 1) {
     const current = problemInput[i];
     if (keywords[current]) {
-      const randIndex = Math.floor(
-        Math.random() * songLibrary[keywords[current]].length,
-      );
-      return songLibrary[keywords[current]][randIndex];
+      const randomIndex = genRandomIndex(songs[keywords[current]].length);
+      return songs[keywords[current]][randomIndex];
     }
   }
-  return songLibrary.etc[Math.floor(Math.random() * songLibrary.etc.length)];
+  const randomIndex = genRandomIndex(songs.etc.length);
+  return songs.etc[randomIndex];
 };
 
 module.exports = songQueryGenerator;

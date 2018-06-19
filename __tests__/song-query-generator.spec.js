@@ -1,6 +1,6 @@
 /* eslint-disable no-undef */
 const songQueryGenerator = require('../helpers/song-query-generator');
-const songLibrary = require('../helpers/song-library');
+const songs = require('../data/songs');
 
 describe('songQueryGenerator', () => {
   test('should return a string', () => {
@@ -12,7 +12,7 @@ describe('songQueryGenerator', () => {
     const result = songQueryGenerator(
       `My pizza box doesn't fit in the fridge.`,
     );
-    const foodSongs = songLibrary.food;
+    const foodSongs = songs.food;
     expect(foodSongs.includes(result)).toBe(true);
   });
 
@@ -20,13 +20,13 @@ describe('songQueryGenerator', () => {
     const result = songQueryGenerator(
       `I have too much cash in my wallet. It hurts my butt when I sit.`,
     );
-    const moneySongs = songLibrary.money;
+    const moneySongs = songs.money;
     expect(moneySongs.includes(result)).toBe(true);
   });
 
   test('should return a song from the etc category if given a keyword that does not belong to a specific category', () => {
     const result = songQueryGenerator('ooga booga');
-    const etcSongs = songLibrary.etc;
+    const etcSongs = songs.etc;
     expect(etcSongs.includes(result)).toBe(true);
   });
 });
