@@ -3,6 +3,7 @@ const songs = {
     `sia chandelier`,
     `gary jules mad world`,
     `adele set fire to the rain`,
+    `celine dion my heart will go on`,
   ],
   money: [
     `adele hello`,
